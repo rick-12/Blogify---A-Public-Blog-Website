@@ -1,0 +1,232 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body {
+  min-height: 100vh;
+}
+
+p {
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 8vh;
+}
+
+.nav-link, .navbar-brand {
+  letter-spacing: 0.35rem;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.nav-link {
+  font-size: 0.82rem;
+}
+
+.nav-link:hover {
+  color: #15e099;
+}
+
+.nav-item {
+  margin: 0 1vw;
+}
+
+#nav-container {
+  margin-right: 5%;
+}
+
+#icon {
+  position: relative;
+  right: 4%;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.main h1, p {
+  margin-top: 4vh;
+}
+
+.button-container {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button a {
+  color: white;
+}
+
+.blogs {
+  margin-top: 5vh;
+}
+
+.publish-blog a {
+  color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  position: relative;
+  right: 3%;
+}
+
+.blog {
+  border: 0.03rem solid #b0abab;
+  border-radius: 1.2rem;
+}
+
+.blog p a:hover {
+  text-decoration: underline;
+}
+
+#compose-post {
+  margin-bottom: 0.5rem;
+}
+
+#blog-content {
+  width: 100%;
+}
+
+footer {
+  margin-top: 2vh;
+  height: 8vh;
+  background-color: #20b081;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  width: fit-content;
+  color: white;
+  margin: 0;
+}
+
+#status-code {
+  font-size: 10rem;
+}
+
+/* html,
+body {
+  height: 100%;
+} */
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+/* .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+} */
+
+#floatingName {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#floatingConfirmPassword {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#floatingEmail {
+  border-radius: 0;
+}
+
+#floatingPassword {
+  border-radius: 0;
+}
+
+#username {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#password {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* .form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
+
+main p {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+#navbarSupportedContent a:hover, .navbar-brand:hover {
+  text-decoration: none;
+}
