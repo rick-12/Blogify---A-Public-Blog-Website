@@ -26,9 +26,11 @@ npm install
 ## SCREENSHOTS OF THE APPLICATION.
 
 - Home Page(Dark Mode).
+  
   <img src="./images/Home(Dark).png" alt="Home(Dark) Page screenshot" />
   
 - Home Page(Light Mode).
+  
   <img src="./images/Home(Light).png" alt="Home(Light) Page screenshot" />
 
 - Register Page. 
